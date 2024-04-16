@@ -1,0 +1,65 @@
+/* 全体のスタイル */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* より洗練されたフォントに変更 */
+  background-color: #f2f2f2; /* 背景色 */
+}
+
+/* ヘッダー */
+header {
+  background-color: #00bfff; /* ヘッダーの背景色 */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6affff;
+  font-size: 16px; /* 検索バーのフォントサイズを大きく */
+}
+
+.login-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #00bfff;
+  cursor: pointer;
+  font-size: 16px; /* ログインボタンのフォントサイズを大きく */
+}
+
+/* コンテンツ */
+.content {
+  padding: 20px;
+}
+
+/* フッター */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #00bfff; /* フッターの背景色 */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #b117a9;
+  cursor: pointer;
+  font-size: 16px; /* ナビゲーションボタンのフォントサイズを大きく */
+}
